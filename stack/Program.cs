@@ -27,7 +27,7 @@ namespace stack
             //Eliminando elemento de la Stack
             nombres.Pop();
 
-            //Recorremos la pila
+            //Recorremos la stack
             Console.WriteLine("Mostramos la stack con elemento eliminado:");
             foreach (string elemento in nombres)
             {
