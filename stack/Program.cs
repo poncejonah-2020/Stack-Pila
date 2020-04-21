@@ -23,6 +23,8 @@ namespace stack
             {
                 Console.WriteLine(elemento);
             }
+            Console.ReadLine();
+
 
             //Eliminando elemento de la Stack
             nombres.Pop();
@@ -32,6 +34,13 @@ namespace stack
             foreach (string elemento in nombres)
             {
                 Console.WriteLine(elemento);
+            }
+            Console.ReadLine();
+
+            //Otra manera de implementar Pop (dentro de un ciclo)
+            while(nombres.Count >0)
+            {
+                Console.WriteLine(nombres.Pop());
             }
 
         }
