@@ -18,6 +18,22 @@ namespace stack
             nombres.Push("sebas");
 
             //Recorremos la pila
+            Console.WriteLine("Mostramos la stack:");
+            foreach (string elemento in nombres)
+            {
+                Console.WriteLine(elemento);
+            }
+
+            //Eliminando elemento de la Stack
+            nombres.Pop();
+
+            //Recorremos la pila
+            Console.WriteLine("Mostramos la stack con elemento eliminado:");
+            foreach (string elemento in nombres)
+            {
+                Console.WriteLine(elemento);
+            }
+
         }
     }
 }
